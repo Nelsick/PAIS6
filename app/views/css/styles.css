@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+:root{
+    --primaryColor: #3454D3;
+    --secondaryColor: #253C97;
+    --darkColor: #0F183C;
+    --clearColor: white;
+    --cleanColor: #fafafaa8;
+    --fontStyle: 'Poppins', sans-serif;
+}
+
+/* Estilos generales, quitar el padding y margen por defecto*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontStyle);
+}
+
+/* Sección del sidebar*/
+
+/* Creación del sidebar, asignar espacios y formatos basicos*/
+.sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    padding-top: 1rem;
+    background-color: var(--darkColor);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Formatos de los links dentro del navbar */
+.sidebar a{
+    display: block;
+    color: var(--clearColor);
+    padding: 1rem;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+/* Formatos para link seleccionado*/
+.sidebar a.active{
+    background-color: var(--secondaryColor);
+}
+
+/* Formatos para links no seleccionados*/
+.sidebar a:hover:not(.active){
+    background-color: var(--primaryColor);
+}
+
+/* Separación para link de cierre de sesión*/
+.logout{
+    margin-top: auto;
+}
+
+/* Separación de los iconos */
+.bx{
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+/* CUERPO PRINCIPAL DE LA PÁGINA */
+
+.container{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: var(--cleanColor);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.container h1{
+    grid-column: span 4;
+    text-align: center;
+    background-color: var(--darkColor);
+    border-radius: 1rem;
+    color: white;
+    padding: .5rem;
+}
