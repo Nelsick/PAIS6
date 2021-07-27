@@ -104,4 +104,11 @@
     transition: .5s ease;
     cursor: pointer;
     margin-top: 1rem;
+    border-radius: .3rem;
+    display: flex;
+}
+
+.cardbutton:hover{
+    background-color: var(--darkColor);
+    color: var(--clearColor);
 }

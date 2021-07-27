@@ -32,13 +32,13 @@
                     "<p><span class='card1p'>Editorial: </span>". $book['editorial'] . "</p>".
                     "<p><span class='card1p'>Año: </span>". $book['year'] . "</p>".
                     "<p><span class='card1p'>ISBN: </span>". $book['ISBN'] . "</p>".
-                    "<button class='cardbutton' type='submit'>Agregar al carrito</button>"
+                    "<button class='cardbutton' value='".$book['id']."' type='submit'>Agregar al carrito</button>"
                     ."</div>";
                 }
 
             ?>            
         </div>
     </div>
-    <script src="app/js/main.js"></script>
+    <script src="app/js/shoppingcar.js"></script>
 </body>
 </html>

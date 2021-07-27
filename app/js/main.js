@@ -39,3 +39,4 @@ function validateDataForm(name,lastname,username,password,confirmPassword){
         return true;
     }
 }
+
