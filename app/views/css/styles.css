@@ -84,5 +84,24 @@
 .card1{
     grid-column: span 1;
     border: 1px solid var(--primaryColor);
-    text-align: center;
+    text-align: left;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.card1p{
+    font-weight: bolder;
+    color: var(--secondaryColor);
+}
+
+.cardbutton{
+    background-color: rgb(238, 200, 31);
+    color: var(--darkColor);
+    padding: .3rem;;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: .5s ease;
+    cursor: pointer;
+    margin-top: 1rem;
 }
