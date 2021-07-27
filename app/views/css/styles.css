@@ -80,3 +80,9 @@
     color: white;
     padding: .5rem;
 }
+
+.card1{
+    grid-column: span 1;
+    border: 1px solid var(--primaryColor);
+    text-align: center;
+}

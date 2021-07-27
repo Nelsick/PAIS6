@@ -18,6 +18,14 @@
     </div>
     <div class="container">
         <h1>Manejo de sesiones y Carro de compras</h1>
+        <div class="card1">
+            <p>Id:</p>
+            <p>titulo:</p>
+            <p>Autores:</p>
+            <p>Editorial:</p>
+            <p>Año: </p>
+            <p>ISBN:</p>
+        </div>
     </div>
     <script src="app/js/main.js"></script>
 </body>
